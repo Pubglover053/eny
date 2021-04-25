@@ -1,5 +1,4 @@
 import d from "./d"
+import { whichever, some, shuffle } from "./array"
 
-const eny = { d }
-
-export default eny
+export { d, whichever, some, shuffle }
