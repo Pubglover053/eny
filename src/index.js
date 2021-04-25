@@ -1,4 +1,4 @@
 import d from "./d"
-import { whichever, some, shuffle } from "./array"
+import { whichever, some, shuffle, order } from "./array"
 
-export { d, whichever, some, shuffle }
+export { d, whichever, some, shuffle, order }
