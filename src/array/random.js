@@ -1,6 +1,6 @@
 /* eslint-disable no-restricted-syntax */
 
-import d from "../d"
+import { d } from "../eny"
 
 function randomIdxOf(array) {
   return d(array.length) - 1
