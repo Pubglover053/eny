@@ -91,7 +91,7 @@ module.exports = {
         consistent: true,
       },
     ],
-    "operator-linebreak": [`error`, `before`],
+    "operator-linebreak": [`error`, `after`],
     "prefer-destructuring": [
       `error`,
       {

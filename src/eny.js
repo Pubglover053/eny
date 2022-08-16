@@ -1,7 +1,4 @@
-export function b(eny) {
-  return bitFlip(eny)
-}
-export function bitFlip(eny = r) {
+export function flip(eny = r) {
   return Math.round(eny())
 }
 
@@ -62,4 +59,17 @@ export function nodeSetup(randomBytes) {
 
 export function r() {
   return Math.random()
+}
+
+export function we(a, b, c) {
+  switch (undefined) {
+    case a:
+      return c / b
+    case b:
+      return c / a
+    case c:
+      return a * b
+    default:
+      return `Invalid`
+  }
 }
